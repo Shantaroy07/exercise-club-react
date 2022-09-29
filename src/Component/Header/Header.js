@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <div>
             <h1>Seniors Exercises Club</h1>
-            <p>Select Today's Exercises</p>
+            <p>Select Today's Activities</p>
         </div>
     );
 };
