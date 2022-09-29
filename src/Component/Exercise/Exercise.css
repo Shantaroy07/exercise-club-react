@@ -1,5 +1,6 @@
 .exercise {
     width: 300px;
+    height: 700px;
     border: 1px solid lightslategray;
     border-radius: 7px;
     position: relative;
@@ -16,7 +17,7 @@
 
 .exercise button {
     background-color: olive;
-    width: 100%;
+    width: 50%;
     position: absolute;
     bottom: 0%;
 }
@@ -28,4 +29,8 @@
     bottom: 0%;
     margin-top: 5px;
     padding: 5px;
+}
+
+.card {
+    margin-bottom: 5px;
 }

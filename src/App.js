@@ -3,6 +3,7 @@ import './App.css';
 import Exercises from './Component/Exercises/Exercises';
 import Details from './Component/Details/Details';
 import { useEffect, useState } from 'react';
+import Question from './Component/Question/Question';
 
 function App() {
   const [time, setTime] = useState(0);
@@ -20,6 +21,7 @@ function App() {
     <div className="App app-body">
       <Exercises addBtn={addTime}></Exercises>
       <Details addTime={time}></Details>
+      <Question></Question>
 
     </div>
   );
