@@ -1,9 +1,9 @@
 .exercise {
     width: 300px;
-    height: 510px;
     border: 1px solid lightslategray;
     border-radius: 7px;
     position: relative;
+
 }
 
 .exercise img {
@@ -12,4 +12,20 @@
     margin: 7px;
     border-radius: 7px;
 
+}
+
+.exercise button {
+    background-color: olive;
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+}
+
+.add-btn {
+    background-color: olive;
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+    margin-top: 5px;
+    padding: 5px;
 }

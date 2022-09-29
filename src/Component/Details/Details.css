@@ -1,4 +1,13 @@
 .details {
     position: sticky;
     top: 0%;
+    background-color: burlywood;
+}
+
+.owner {
+    background-color: antiquewhite;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+
 }
