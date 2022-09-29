@@ -8,6 +8,7 @@ import React from 'react';
 
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { addToDb } from '../fakedb';
 
 
 
@@ -17,6 +18,9 @@ const Details = ({ addTime }) => {
 
     function timeForBreak(e) {
         setBreakTime(e);
+        addToDb(e);
+
+
     }
     return (
         <div className='details'>

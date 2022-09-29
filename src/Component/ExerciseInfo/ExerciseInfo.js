@@ -15,7 +15,7 @@ const ExerciseInfo = ({ addBtn }) => {
     return (
         <div className='exerciseInfo-container'>
             {
-                exercises.map(exercise => <Exercise exercise={exercise} addBtn={addBtn}></Exercise>)
+                exercises.map(exercise => <Exercise exercise={exercise} addBtn={addBtn} key={exercise.id}></Exercise>)
             }
 
 
