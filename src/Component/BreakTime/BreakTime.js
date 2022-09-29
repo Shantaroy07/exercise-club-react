@@ -1,11 +1,12 @@
 import React from 'react';
 import './BreakTime.css'
 
-const BreakTime = () => {
+
+const BreakTime = ({ timeBreak }) => {
     return (
         <div className='breakTime'>
             <h4>Break Time:</h4>
-            <p>{ }min</p>
+            <p>{timeBreak}min</p>
 
         </div>
     );

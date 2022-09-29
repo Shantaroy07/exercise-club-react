@@ -1,0 +1,16 @@
+.addBreakTime {
+    background-color: antiquewhite;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addBreakTime button {
+    border-radius: 50%;
+    margin: 1px;
+    padding: 3px;
+
+}

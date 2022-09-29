@@ -7,6 +7,7 @@ import { useEffect, useState } from 'react';
 function App() {
   const [time, setTime] = useState(0);
 
+
   let exerciseTime = 0;
   function addTime(selectedItem) {
     const item = parseInt(selectedItem);
