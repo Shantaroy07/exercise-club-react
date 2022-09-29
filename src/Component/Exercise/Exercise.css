@@ -1,0 +1,15 @@
+.exercise {
+    width: 300px;
+    height: 510px;
+    border: 1px solid lightslategray;
+    border-radius: 7px;
+    position: relative;
+}
+
+.exercise img {
+    width: 286px;
+    height: 286px;
+    margin: 7px;
+    border-radius: 7px;
+
+}
