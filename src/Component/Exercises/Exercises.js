@@ -3,11 +3,12 @@ import ExerciseInfo from '../ExerciseInfo/ExerciseInfo';
 import Header from '../Header/Header';
 import './Exercises.css'
 
-const Exercises = () => {
+const Exercises = ({ addBtn }) => {
+
     return (
         <div>
             <Header></Header>
-            <ExerciseInfo></ExerciseInfo>
+            <ExerciseInfo addBtn={addBtn}></ExerciseInfo>
 
         </div>
     );

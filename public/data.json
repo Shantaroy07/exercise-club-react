@@ -4,7 +4,7 @@
         "name": "Water aerobics",
         "img": "https://slc1.wpengine.com/wp-content/uploads/2020/02/three-older-adults-performing-water-aerobics-in-a-community-pool-1-480x320.jpg",
         "age": "40-60",
-        "duration": "20 min",
+        "duration": "20",
         "info": "In the past years, water aerobics have become an extremely popular form of exercise among all ages, but in particular to seniors. Exercising in the water is ideal for those living with  arthritis and other forms of joint pain, as the buoyancy of the water puts less stress on your joints."
     },
     {
@@ -12,7 +12,7 @@
         "name": "Resistance band workouts",
         "img": "https://slc1.wpengine.com/wp-content/uploads/2020/02/older-adult-in-resistance-band-class-1-480x320.jpg",
         "age": "40-50",
-        "duration": "30 min",
+        "duration": "30",
         "info": "Resistance bands are stretchy strips of rubber that add resistance to workouts with reduced stress on your body. Resistance band workouts are user-friendly, and accessible for beginners. This form of exercise is growing more popular among seniors because of the relatively cheap up-front costs of materials, which makes resistance band workouts ideal for at-home exercise."
     },
     {
@@ -20,7 +20,7 @@
         "name": " Chair yoga",
         "img": "https://slc1.wpengine.com/wp-content/uploads/2020/02/class-of-older-women-learning-chair-yoga-positions-1-480x320.jpg",
         "age": "40-60",
-        "duration": "25 min",
+        "duration": "25",
         "info": "Chair yoga is a low-impact form of exercise that improves muscle strength, mobility, balance and flexibility, all of which are crucial health aspects for seniors. Chair yoga is an accessible form of yoga that provides less stress on muscles, joints, and bones than more conventional forms of yoga."
     },
     {
@@ -28,7 +28,7 @@
         "name": "Pilates",
         "img": "https://slc1.wpengine.com/wp-content/uploads/2020/02/older-man-performing-pilates-exercises-on-a-ball-with-the-help-of-a-young-trainer-1-480x320.jpg",
         "age": "60-80",
-        "duration": "20 min",
+        "duration": "20",
         "info": "Pilates is a popular low-impact form of exercise that was developed a century ago. In pilates exercises, breathing, alignment, concentration and core strength are emphasized, and typically involves mats, pilates balls, and other inflated accessories to help build strength without the stress of higher-impact exercises."
     },
     {
@@ -36,7 +36,7 @@
         "name": "Walking",
         "img": "https://slc1.wpengine.com/wp-content/uploads/2020/02/four-older-adults-out-on-a-walk-through-the-forest-in-raincoats-1-480x320.jpg",
         "age": "30-70",
-        "duration": "40 min",
+        "duration": "40",
         "info": "One of the least stressful and accessible forms of exercise is walking. For some seniors, walking is a bigger challenge than others, so distance and step goals differ from person to person. "
     },
     {
@@ -44,7 +44,7 @@
         "name": "Body weight workouts",
         "img": "https://slc1.wpengine.com/wp-content/uploads/2020/02/older-woman-performing-body-weight-exercises-in-a-class-1-480x320.jpg",
         "age": "30-60",
-        "duration": "20 min",
+        "duration": "20",
         "info": "Muscle loss can be devastating and debilitating for older adults. Around a third of seniors live with severe muscle loss, which can lead to hormone problems, a decrease in the ability to metabolize protein, and other problems. Body weight workouts are one of the best ways to counteract the effects of muscle atrophy in older adults."
     }
 ]

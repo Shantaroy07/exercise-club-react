@@ -1,7 +1,7 @@
 import React from 'react';
 import './Exercise.css'
 
-const Exercise = ({ exercise }) => {
+const Exercise = ({ exercise, addBtn }) => {
     const { img, name, info, age, duration } = exercise;
     return (
         <div className='exercise'>
@@ -13,7 +13,7 @@ const Exercise = ({ exercise }) => {
                 <h4>Time Required:{duration}</h4>
             </div>
             <div>
-                <p className='add-btn' onClick={addToList}>Add to list</p>
+                <p className='add-btn' onClick={() => addBtn(duration)} >Add to list</p>
             </div>
 
         </div>

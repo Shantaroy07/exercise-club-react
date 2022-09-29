@@ -1,8 +1,9 @@
 import React from 'react';
 import ExerciseTime from '../ExerciseTime/ExerciseTime';
+
 import './Details.css'
 
-const Details = () => {
+const Details = ({ addTime }) => {
     return (
         <div className='details'>
 
@@ -13,7 +14,9 @@ const Details = () => {
             </div>
             <h3>Add a Break</h3>
             <h3>Exercises Details</h3>
-            <ExerciseTime></ExerciseTime>
+
+            <ExerciseTime addTime={addTime}></ExerciseTime>
+
         </div>
     );
 };
