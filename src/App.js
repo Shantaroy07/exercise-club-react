@@ -20,6 +20,7 @@ function App() {
     <div className="App app-body">
       <Exercises addBtn={addTime}></Exercises>
       <Details addTime={time}></Details>
+
     </div>
   );
 }

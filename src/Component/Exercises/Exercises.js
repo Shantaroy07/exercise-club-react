@@ -6,9 +6,9 @@ import './Exercises.css'
 const Exercises = ({ addBtn }) => {
 
     return (
-        <div>
+        <div className='exercises'>
             <Header></Header>
-            <ExerciseInfo addBtn={addBtn}></ExerciseInfo>
+            <ExerciseInfo addBtn={addBtn} ></ExerciseInfo>
 
         </div>
     );
