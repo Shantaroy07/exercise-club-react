@@ -4,9 +4,16 @@ import AddBreakTime from '../AddBreakTime/AddBreakTime';
 import BreakTime from '../BreakTime/BreakTime';
 import ExerciseTime from '../ExerciseTime/ExerciseTime';
 import './Details.css'
+import React from 'react';
+
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+
 
 const Details = ({ addTime }) => {
     const [timeBreak, setBreakTime] = useState(0);
+    const notify = () => toast("Wow COngratulations!");
 
     function timeForBreak(e) {
         setBreakTime(e);
@@ -26,7 +33,8 @@ const Details = ({ addTime }) => {
 
             <ExerciseTime addTime={addTime}></ExerciseTime>
             <BreakTime timeBreak={timeBreak} s></BreakTime>
-            <button>Activity Completed</button>
+            <button className='style' onClick={notify}>Activity Completed</button>
+            <ToastContainer />
 
         </div>
     );
