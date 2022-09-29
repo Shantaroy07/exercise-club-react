@@ -1,0 +1,9 @@
+.breakTime {
+    background-color: antiquewhite;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

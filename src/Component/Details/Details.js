@@ -1,4 +1,5 @@
 import React from 'react';
+import BreakTime from '../BreakTime/BreakTime';
 import ExerciseTime from '../ExerciseTime/ExerciseTime';
 
 import './Details.css'
@@ -16,6 +17,8 @@ const Details = ({ addTime }) => {
             <h3>Exercises Details</h3>
 
             <ExerciseTime addTime={addTime}></ExerciseTime>
+            <BreakTime></BreakTime>
+            <button>Activity Completed</button>
 
         </div>
     );
